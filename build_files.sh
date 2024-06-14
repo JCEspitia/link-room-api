@@ -1,5 +1,5 @@
 echo "BUILD START"
-pip install --upgrade pip
+pip3 install --upgrade pip
 python3.12 -m pip install -r requirements.txt
 
 echo "Make migrations..."
